@@ -138,7 +138,7 @@ open class ActionButton: NSObject {
         setTitle(nil, forState: state)
         floatButton.setImage(image, for: state)
         floatButton.adjustsImageWhenHighlighted = false
-        floatButton.contentEdgeInsets = UIEdgeInsets.zero
+        floatButton.contentEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
     }
     
     //MARK: - Auto Layout Methods
