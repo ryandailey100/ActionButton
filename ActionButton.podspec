@@ -9,13 +9,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "ActionButton"
-  s.version          = "0.1.5"
+  s.version          = "0.2.0"
   s.summary          = "Action button is a Floating Action Button inspired from Google Inbox implemented in Swift"
-  s.homepage         = "https://github.com/lourenco-marinho/ActionButton"
+  s.homepage         = "https://github.com/ryandailey100/ActionButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Lourenço Marinho" => "lourenco.pmarinho@gmail.com" }
-  s.source           = { :git => "https://github.com/lourenco-marinho/ActionButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ryandailey100/ActionButton.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lopima'
 
   s.platform     = :ios, '10.0'
