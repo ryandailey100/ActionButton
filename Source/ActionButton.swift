@@ -62,7 +62,7 @@ open class ActionButton: NSObject {
     var image: UIImage?
     
     /// The button that will be presented to the user
-    fileprivate var floatButton: UIButton!
+    open var floatButton: UIButton!
     
     /// View that will hold the placement of the button's actions
     fileprivate var contentView: UIView!
